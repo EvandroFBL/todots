@@ -1,3 +1,57 @@
 .taskAdder {
     margin-top: -1.6875rem;
 }
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 55vw;
+    margin-top: 4rem;
+    margin-inline: auto;
+}
+
+.taskCounters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.createdTasks, .completedTasks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.createdTasksName, .completedTasksName {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--blue-200);
+}
+
+.createdTasksCounter, .completedTasksCounter {
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: var(--gray-200);
+
+    background-color: var(--gray-400);
+    border-radius: 8px;
+    padding: 0.125rem 0.5rem;
+}
+
+.completedTasksName {
+    color: var(--purple-200);
+}
+
+.taskList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.875rem;
+    margin-top: 1.5rem;
+}
